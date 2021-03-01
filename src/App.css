@@ -1,38 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 10vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerRow {
+  background-color: #00b3ff;
+  margin-bottom: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title {
+  color: white;
+  text-align: center;
+
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.mainContainer {
+  margin-top: 100px;
+}
+
+.addRow {
+  margin-bottom: 50px;
+}
+
+.toDoText,
+.searchText {
+  width: 50%;
+  border: none;
+  margin: 0.7rem;
+  border-bottom: 0.02rem solid #00b3ff;
+}
+
+.filterRow {
+  background-color: #00b3ff;
+  margin-top: 50px;
+}
+
+.filterRow .btn-link {
+  color: white;
+  text-decoration: none !important;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filterRow .btn-link:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list-group {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-group-item {
+  border: none !important;
+}
+
+.listItemColToDo {
+  text-align: left;
+}
+
+.itemDeleteButton {
+  border-radius: 0 !important;
+  padding: 0.175rem 0.35rem !important;
 }
